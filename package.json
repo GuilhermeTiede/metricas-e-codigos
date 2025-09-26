@@ -2,6 +2,7 @@
   "name": "metricas-e-codigos",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://GuilhermeTiede.github.io/metricas-e-codigos",
   "dependencies": {
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.68",
@@ -21,11 +22,16 @@
     "styled-components": "^5.3.11",
     "typescript": "^4.9.5"
   },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
