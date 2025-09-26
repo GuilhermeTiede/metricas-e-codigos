@@ -90,6 +90,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
+                <LanguageSwitch onClick={() => handleChange("pt")}>
+                  PT
+                </LanguageSwitch>
                 <LanguageSwitch onClick={() => handleChange("en")}>
                   <SvgIcon
                     src="united-states.svg"

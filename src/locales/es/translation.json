@@ -39,5 +39,14 @@
   "Name" : "Nombre",
   "Your Name": "Tu nombre",
   "Email" : "Email",
-  "Your Email": "Tu correo electrónico"
+  "Your Email": "Tu correo electrónico",
+  "Name is required": "El nombre es requerido",
+  "Email address is required": "El email es requerido",
+  "Email address is invalid": "Email inválido",
+  "Message is required": "El mensaje es requerido",
+  "Error": "Error",
+  "Success": "Éxito",
+  "There was an error sending your message, please try again later.": "Hubo un error al enviar tu mensaje, por favor intenta más tarde.",
+  "Your message has been sent!": "¡Tu mensaje ha sido enviado!",
+  "Failed to submit form. Please try again later.": "Error al enviar el formulario. Inténtalo de nuevo más tarde."
 }

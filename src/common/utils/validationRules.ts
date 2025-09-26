@@ -1,18 +1,19 @@
 import { validateProps } from "../../common/types";
+import i18n from "../../translation";
 
 export default function validate(values: validateProps) {
   let errors = {} as validateProps;
 
   if (!values.name) {
-    errors.name = "Name is required";
+    errors.name = i18n.t("Name is required");
   }
   if (!values.email) {
-    errors.email = "Email address is required";
+    errors.email = i18n.t("Email address is required");
   } else if (!/\S+@\S+\.\S+/.test(values.email)) {
-    errors.email = "Email address is invalid";
+    errors.email = i18n.t("Email address is invalid");
   }
   if (!values.message) {
-    errors.message = "Message is required";
+    errors.message = i18n.t("Message is required");
   }
   return errors;
 }

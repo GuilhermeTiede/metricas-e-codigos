@@ -39,5 +39,14 @@
   "Name" : "Name",
   "Your Name": "Your Name",
   "Email" : "Email",
-  "Your Email": "Your Email"
+  "Your Email": "Your Email",
+  "Name is required": "Name is required",
+  "Email address is required": "Email address is required",
+  "Email address is invalid": "Email address is invalid",
+  "Message is required": "Message is required",
+  "Error": "Error",
+  "Success": "Success",
+  "There was an error sending your message, please try again later.": "There was an error sending your message, please try again later.",
+  "Your message has been sent!": "Your message has been sent!",
+  "Failed to submit form. Please try again later.": "Failed to submit form. Please try again later."
 }
