@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Da estratégia ao código",
+  "text": "Unimos CRM personalizado, métricas de gestão e soluções de atendimento automatizado para transformar processos em resultados reais",
   "button": [
     {
-      "title": "Explore"
+      "title": "Fale Conosco"
     },
     {
-      "title": "Learn more",
+      "title": "Saiba mais",
       "color": "#fff"
     }
   ]

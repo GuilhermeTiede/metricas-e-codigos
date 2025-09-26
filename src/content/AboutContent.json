@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Transformamos dados em decisões inteligentes",
+  "text": "Na Métricas e Códigos, combinamos expertise técnica e visão estratégica para criar soluções personalizadas que realmente fazem a diferença no seu negócio.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Análise de Dados",
+      "content": "Extraímos insights valiosos dos seus dados para fundamentar decisões estratégicas e identificar oportunidades de crescimento.",
+      "icon": "graphs.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Soluções Automatizadas",
+      "content": "Desenvolvemos sistemas que otimizam processos e reduzem custos operacionais através da automação inteligente.",
+      "icon": "developer.svg"
     }
   ]
 }
