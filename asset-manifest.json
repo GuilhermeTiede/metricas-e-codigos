@@ -1,27 +1,25 @@
 {
   "files": {
     "main.css": "/metricas-e-codigos/static/css/main.37ddbf14.css",
-    "main.js": "/metricas-e-codigos/static/js/main.424809b5.js",
-    "static/js/882.167b72b4.chunk.js": "/metricas-e-codigos/static/js/882.167b72b4.chunk.js",
-    "static/js/676.d7d8f180.chunk.js": "/metricas-e-codigos/static/js/676.d7d8f180.chunk.js",
-    "static/js/416.3b400201.chunk.js": "/metricas-e-codigos/static/js/416.3b400201.chunk.js",
+    "main.js": "/metricas-e-codigos/static/js/main.63612088.js",
+    "static/js/585.1fe36c26.chunk.js": "/metricas-e-codigos/static/js/585.1fe36c26.chunk.js",
+    "static/js/676.6d1fee75.chunk.js": "/metricas-e-codigos/static/js/676.6d1fee75.chunk.js",
     "static/js/538.362234b4.chunk.js": "/metricas-e-codigos/static/js/538.362234b4.chunk.js",
-    "static/js/566.9d3d011b.chunk.js": "/metricas-e-codigos/static/js/566.9d3d011b.chunk.js",
+    "static/js/566.a0c5b1d5.chunk.js": "/metricas-e-codigos/static/js/566.a0c5b1d5.chunk.js",
     "static/js/614.7a09cd33.chunk.js": "/metricas-e-codigos/static/js/614.7a09cd33.chunk.js",
     "static/js/545.18ed3857.chunk.js": "/metricas-e-codigos/static/js/545.18ed3857.chunk.js",
     "index.html": "/metricas-e-codigos/index.html",
     "main.37ddbf14.css.map": "/metricas-e-codigos/static/css/main.37ddbf14.css.map",
-    "main.424809b5.js.map": "/metricas-e-codigos/static/js/main.424809b5.js.map",
-    "882.167b72b4.chunk.js.map": "/metricas-e-codigos/static/js/882.167b72b4.chunk.js.map",
-    "676.d7d8f180.chunk.js.map": "/metricas-e-codigos/static/js/676.d7d8f180.chunk.js.map",
-    "416.3b400201.chunk.js.map": "/metricas-e-codigos/static/js/416.3b400201.chunk.js.map",
+    "main.63612088.js.map": "/metricas-e-codigos/static/js/main.63612088.js.map",
+    "585.1fe36c26.chunk.js.map": "/metricas-e-codigos/static/js/585.1fe36c26.chunk.js.map",
+    "676.6d1fee75.chunk.js.map": "/metricas-e-codigos/static/js/676.6d1fee75.chunk.js.map",
     "538.362234b4.chunk.js.map": "/metricas-e-codigos/static/js/538.362234b4.chunk.js.map",
-    "566.9d3d011b.chunk.js.map": "/metricas-e-codigos/static/js/566.9d3d011b.chunk.js.map",
+    "566.a0c5b1d5.chunk.js.map": "/metricas-e-codigos/static/js/566.a0c5b1d5.chunk.js.map",
     "614.7a09cd33.chunk.js.map": "/metricas-e-codigos/static/js/614.7a09cd33.chunk.js.map",
     "545.18ed3857.chunk.js.map": "/metricas-e-codigos/static/js/545.18ed3857.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37ddbf14.css",
-    "static/js/main.424809b5.js"
+    "static/js/main.63612088.js"
   ]
 }
