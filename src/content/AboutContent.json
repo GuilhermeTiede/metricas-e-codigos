@@ -1,16 +1,26 @@
 {
-  "title": "Transformamos dados em decisões inteligentes",
+  "title": "Nossas soluções",
   "text": "Na Métricas e Códigos, combinamos expertise técnica e visão estratégica para criar soluções personalizadas que realmente fazem a diferença no seu negócio.",
   "section": [
     {
-      "title": "Análise de Dados",
+      "title": "Dashboard de Gestão",
       "content": "Extraímos insights valiosos dos seus dados para fundamentar decisões estratégicas e identificar oportunidades de crescimento.",
-      "icon": "graphs.svg"
+      "icon": "cat-graph.svg"
     },
     {
-      "title": "Soluções Automatizadas",
-      "content": "Desenvolvemos sistemas que otimizam processos e reduzem custos operacionais através da automação inteligente.",
+      "title": "CRM Personalizado",
+      "content": "Desenvolvemos sistemas de CRM adaptados às necessidades do seu negócio, otimizando a gestão de clientes e processos internos.",
       "icon": "developer.svg"
+    },
+    {
+      "title": "Atendimento Automatizado",
+      "content": "Implementamos soluções de atendimento ao cliente que melhoram a experiência do usuário e aumentam a eficiência do suporte.",
+      "icon": "chatbot.svg"
+    },
+    {
+      "title": "Soluções Sob Medida",
+      "content": "Criamos soluções personalizadas que atendem às necessidades específicas de cada cliente.",
+      "icon": "custom.svg"
     }
   ]
 }

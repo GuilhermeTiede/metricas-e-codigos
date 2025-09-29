@@ -43,6 +43,26 @@ export const LogoContainer = styled("div")`
   position: relative;
 `;
 
+export const LogoText = styled("h2")`
+  color: #18216d;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: rgb(255, 130, 92);
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
+`;
+
 export const Para = styled("div")`
   color: #18216d;
   font-size: 14px;

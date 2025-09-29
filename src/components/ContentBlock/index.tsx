@@ -60,13 +60,27 @@ const ContentBlock = ({
                         },
                         id: number
                       ) => {
+                        const translated = t(item.title);
+                        const handleClick = () => {
+                          if (
+                            translated.toLowerCase().includes("fale conosco")
+                          ) {
+                            window.open(
+                              "https://wa.me/5562984552627",
+                              "_blank"
+                            );
+                            return;
+                          }
+                          // comportamento padrão anterior
+                          scrollTo("about");
+                        };
                         return (
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={handleClick}
                           >
-                            {t(item.title)}
+                            {translated}
                           </Button>
                         );
                       }

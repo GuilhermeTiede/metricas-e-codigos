@@ -4,6 +4,7 @@ export interface ContactProps {
   content: string;
   id: string;
   t: TFunction;
+  icon?: string; // SVG icon filename (public/img/svg)
 }
 
 export interface ValidationTypeProps {

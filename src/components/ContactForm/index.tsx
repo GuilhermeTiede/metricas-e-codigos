@@ -8,9 +8,10 @@ import { Button } from "../../common/Button";
 import Block from "../Block";
 import Input from "../../common/Input";
 import TextArea from "../../common/TextArea";
+import { SvgIcon } from "../../common/SvgIcon";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 
-const Contact = ({ title, content, id, t }: ContactProps) => {
+const Contact = ({ title, content, id, t, icon }: ContactProps) => {
   const { values, errors, handleChange, handleSubmit } = useForm(validate);
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
@@ -23,7 +24,20 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
       <Row justify="space-between" align="middle">
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left" triggerOnce>
-            <Block title={title} content={content} />
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "1.25rem",
+              }}
+            >
+              {icon && (
+                <div style={{ maxWidth: "180px" }}>
+                  <SvgIcon src={icon} width="100%" height="100%" />
+                </div>
+              )}
+              <Block title={title} content={content} />
+            </div>
           </Slide>
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>

@@ -10,6 +10,7 @@ import {
   NavLink,
   Extra,
   LogoContainer,
+  LogoText,
   Para,
   Large,
   Chat,
@@ -123,12 +124,7 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
+                <LogoText>Métricas&Códigos</LogoText>
               </LogoContainer>
             </NavLink>
             <FooterContainer>

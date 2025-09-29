@@ -29,44 +29,34 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
     const errors = validate(values);
     setFormState((prevState) => ({ ...prevState, errors }));
 
-    const url = ""; // Fill in your API URL here
-
-    try {
-      if (Object.values(errors).every((error) => error === "")) {
-        const response = await fetch(url, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(values),
-        });
-
-        if (!response.ok) {
-          notification["error"]({
-            message: i18n.t("Error"),
-            description: i18n.t(
-              "There was an error sending your message, please try again later."
-            ),
-          });
-        } else {
-          event.target.reset();
-          setFormState(() => ({
-            values: { ...initialValues },
-            errors: { ...initialValues },
-          }));
-
-          notification["success"]({
-            message: i18n.t("Success"),
-            description: i18n.t("Your message has been sent!"),
-          });
-        }
-      }
-    } catch (error) {
+    if (!Object.values(errors).every((e) => e === "")) {
       notification["error"]({
-        message: i18n.t("Error"),
-        description: i18n.t("Failed to submit form. Please try again later."),
+        message: i18n.t("Atenção"),
+        description: i18n.t("Por favor, preencha os campos obrigatórios."),
       });
+      return;
     }
+
+    const phone = "5562984552627"; // número destino
+    const messageTemplate = `Olá, meu nome é ${values.name}. Email: ${values.email}. Mensagem: ${values.message}`;
+    const encoded = encodeURIComponent(messageTemplate);
+    const waUrl = `https://wa.me/${phone}?text=${encoded}`;
+
+    // Feedback visual rápido antes do redirect
+    notification["success"]({
+      message: i18n.t("Redirecting"),
+      description: i18n.t("Opening WhatsApp..."),
+    });
+
+    // Reset local
+    (event.target as HTMLFormElement).reset();
+    setFormState(() => ({
+      values: { ...initialValues },
+      errors: { ...initialValues },
+    }));
+
+    // Redireciona
+    window.open(waUrl, "_blank");
   };
 
   const handleChange = (

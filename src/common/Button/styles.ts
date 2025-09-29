@@ -1,8 +1,23 @@
 import styled from "styled-components";
 
 export const StyledButton = styled("button")<{ color?: string }>`
-  background: ${(p) => p.color || "#2e186a"};
-  color: ${(p) => (p.color ? "#2E186A" : "#fff")};
+  /* Cor de fundo padrão preta; se uma cor custom for passada, usa-se ela */
+  background: ${(p) => p.color || "#000"};
+  /* Ajuste automático da cor do texto para evitar desaparecer em fundo claro */
+  color: ${(p) => {
+    if (!p.color) return "#fff"; // sem cor custom -> botão padrão escuro
+    const c = p.color.toLowerCase();
+    if (
+      c === "#fff" ||
+      c === "#ffffff" ||
+      c === "white" ||
+      c === "rgb(255,255,255)" ||
+      c === "rgba(255,255,255,1)"
+    ) {
+      return "#000"; // texto preto em fundo branco
+    }
+    return "#fff"; // fallback para fundos coloridos/escuros
+  }};
   font-size: 1rem;
   font-weight: 700;
   width: 100%;
