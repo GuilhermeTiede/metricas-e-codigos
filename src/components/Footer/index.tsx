@@ -129,7 +129,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://www.linkedin.com/company/metricasecodigos"
+                href="https://www.linkedin.com/company/m%C3%A9tricas-c%C3%B3digos"
                 src="linkedin.svg"
               />
             </FooterContainer>
