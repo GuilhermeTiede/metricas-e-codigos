@@ -37,7 +37,7 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
       return;
     }
 
-    const phone = "5562984552627"; // número destino
+    const phone = "554899743441"; // número destino
     const messageTemplate = `Olá, meu nome é ${values.name}. Email: ${values.email}. Mensagem: ${values.message}`;
     const encoded = encodeURIComponent(messageTemplate);
     const waUrl = `https://wa.me/${phone}?text=${encoded}`;

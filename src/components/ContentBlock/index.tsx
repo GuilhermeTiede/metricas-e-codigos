@@ -65,10 +65,7 @@ const ContentBlock = ({
                           if (
                             translated.toLowerCase().includes("fale conosco")
                           ) {
-                            window.open(
-                              "https://wa.me/5562984552627",
-                              "_blank"
-                            );
+                            window.open("https://wa.me/554899743441", "_blank");
                             return;
                           }
                           // comportamento padrão anterior

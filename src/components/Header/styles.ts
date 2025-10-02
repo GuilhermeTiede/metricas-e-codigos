@@ -16,7 +16,7 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const LogoText = styled("h2")`
-  color: #18216d;
+  color: #000000ff;
   font-weight: 700;
   font-size: 1.5rem;
   margin: 0;
@@ -61,7 +61,7 @@ export const Burger = styled("div")`
   display: none;
 
   svg {
-    fill: #2e186a;
+    fill: #000000ff;
   }
 `;
 
@@ -79,7 +79,7 @@ export const Menu = styled("h5")`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #18216d;
+  color: #000000ff;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 

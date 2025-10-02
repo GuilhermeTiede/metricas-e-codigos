@@ -2,7 +2,7 @@
   "name": "metricas-e-codigos",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://GuilhermeTiede.github.io/metricas-e-codigos",
+  "homepage": "https://metricasecodigos.com.br",
   "dependencies": {
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.68",
